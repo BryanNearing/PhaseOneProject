@@ -1,0 +1,60 @@
+Project and Developer Details
+------------------------------------------------------------------------------
+This project is the Phase End Project for Phase one.
+This project was developed by Bryan Nearing for the Simplilearn team for grading purposes.
+
+This project does a couple of things that the user can interact with.
+First, this project gives a welcome prompt to the user and offers 3 menu options
+
+1) List all of the files in the directory -> Lists files and dirs in ascending order.
+2) Show the user options for files in the directory -> Sends the user to the next menu for file options.
+3) Exits the program
+
+If the user selects option 2 they are sent to the second menu with the following options.
+
+1) Add a file -> Creates a blank file with a name specified by the user.
+2) Delete a file -> Deletes a file with a name specified by the user.
+3) Search a file -> Searches for a file from the user and returns with a found/not found prompt
+4) Return back to the main menu -> Returns to the previous menu
+
+
+
+Sprint Planning
+------------------------------------------------------------------------------
+
+
+
+
+
+Algorithms and Flowchart
+------------------------------------------------------------------------------
+The flowchart is added as a submission document called "flowchart.png". See this file for more details on the flow of the program.
+
+There are 2 algorithms that were employed in this project.
+
+1) Linear Search
+When the user specifies that they want to search the directory for a file, the program takes in the filename and starts a search.
+This search uses the linear search algorithm which enumerates over all of the files in the directory.
+The the filename specified by the user matches a filename in the directory, the program outputs that the file was found in the directory 
+or it was not found in the directory if the linear search came up empty.
+
+2) Sort
+One of the requirements of the project was listing all the files in the directory in ascending order.
+The program first gets a String array of all of the file and directory names in the directory.
+The program then uses the Collections.sort() method to sort the files in ascending order.
+The Collections.sort() method uses the quicksort algorithm as defined by the java specifications.
+
+
+
+Core Concepts
+------------------------------------------------------------------------------
+
+
+
+
+
+Github
+------------------------------------------------------------------------------
+The github link is https://github.com/BryanNearing/PhaseOneProject
+
+The github link will also be included in the additional notes section of the project submission.
