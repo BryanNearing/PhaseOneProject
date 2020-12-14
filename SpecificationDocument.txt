@@ -21,8 +21,28 @@ If the user selects option 2 they are sent to the second menu with the following
 
 Sprint Planning
 ------------------------------------------------------------------------------
+This project was divided into 2 sprints.
 
+1st Sprint
+-----------------------------------------
+This first sprint was used to design and code the Menu system.
 
+The program flow was modeled after the design specifications given by the project.
+
+The program flow can be shown in the flowchart.png included in the file submission
+
+The menu system allows users to access all of the functions included in this project
+and lets the user exit the program from the program flow.
+
+2nd Sprint
+-----------------------------------------
+The second sprint was focused on adding in the functionality of the program.
+
+With all of the methods already in the program, the challenge was to code the
+appropriate logic. 
+
+In this sprint, all of the logic was coded and exception handling was used to 
+make sure there would be no interruption of the program from miscelaneous user input.
 
 
 
@@ -48,10 +68,8 @@ The Collections.sort() method uses the quicksort algorithm as defined by the jav
 
 Core Concepts
 ------------------------------------------------------------------------------
-
-
-
-
+The core java concepts in this project are File handling, core java concepts, use of data structures,
+and object oriented programming.
 
 Github
 ------------------------------------------------------------------------------
